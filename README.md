@@ -156,7 +156,7 @@ cd {project-venv}
 ```
 Then create the virtual environment. This keeps this project isolated from other projects:
 ```bash
-python3 -m venv venv
+python3.13 -m venv venv
 ```
 To use the virtual environment, activate it. Do this every time you start a new terminal:
 ```bash
