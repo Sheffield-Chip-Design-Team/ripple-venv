@@ -141,6 +141,13 @@ Each command should print version information or an installation path.
 
 ### Part 2 - Project Environment Setup
 
+### 0) Clone this project repo into a folder
+```
+mkdir sharc-workshop-1
+cd sharc-workshop-1
+git clone https://github.com/Sheffield-Chip-Design-Team/feworkshop1-venv.git
+```
+
 ### 1) Create and activate a Python virtual environment (venv)
 
 If you are not already in the {project-venv}, `cd` into it:
