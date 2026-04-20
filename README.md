@@ -1,4 +1,4 @@
-**Note**: This template is to be copied into different projects. Before you use it, replace placeholders such as `{project-venv-name}` and any project-specific repository URLs with your actual project values.
+**Note**: This template is to be copied into different projects. Before you use it, replace placeholders such as `{project-venv-name}` and any project-specific repository URLs with your actual project values. Also, edit the create_workspace.sh for your specific project
 
 ## Project Environment Setup (Linux (or WSL) / macOS)
 
