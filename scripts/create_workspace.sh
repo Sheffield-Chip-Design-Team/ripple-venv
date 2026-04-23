@@ -8,4 +8,5 @@ PARENT_DIR="$(cd "$PROJECT_VENV_DIR/.." && pwd)"
 cd "$PARENT_DIR"
 mkdir workspace
 cd workspace
-fusesoc library add counter https://github.com/Sheffield-Chip-Design-Team/Frontend-Workshop-1.git
+fusesoc library add ripple_cpu https://github.com/Sheffield-Chip-Design-Team/ripple-32i-core
+fusesic library add ram        https://github.com/Sheffield-Chip-Design-Team/sharc-memory-lib
