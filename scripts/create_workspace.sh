@@ -9,4 +9,4 @@ cd "$PARENT_DIR"
 mkdir workspace
 cd workspace
 fusesoc library add ripple_cpu https://github.com/Sheffield-Chip-Design-Team/ripple-32i-core
-fusesic library add ram        https://github.com/Sheffield-Chip-Design-Team/sharc-memory-lib
+fusesoc library add ram        https://github.com/Sheffield-Chip-Design-Team/sharc-memory-lib
