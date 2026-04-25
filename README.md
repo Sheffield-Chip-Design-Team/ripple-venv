@@ -45,7 +45,28 @@ Then run the same `source` command for the new project's virtual environment.
 ### 3) Create Workspace
 ```bash
 ./scripts/create_workspace.sh
+cd ..
 ```
+This should create a directory structure as shown below
+
+```text
+
+ripple
+├─ ripple-venv
+├─ workspace
+    ├── fusesoc_libraries
+       ├── ram
+       │   └── hw
+       └── ripple_cpu
+           ├── hw
+           │    ├──rtl
+           │    ├──tb
+           │    └──dv
+           └── sw
+```
+
+
+
 ### 4) Run environment checks 
 
 This script checks that you have the environemnt properly setup.
